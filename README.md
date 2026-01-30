@@ -1,16 +1,80 @@
-# React + Vite
+# 🕶️ AI-Agent Assisted Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> "Welcome to the Construct."
 
-Currently, two official plugins are available:
+Este no es un portafolio tradicional. Es un espacio experimental de **Programación Asistida por IA**, donde la lógica humana se encuentra con la velocidad de los Agentes de Inteligencia Artificial.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Diseñado con estética **Cyberpunk/Matrix**, este proyecto sirve como demostración de algoritmos clásicos y desarrollo web moderno.
 
-## React Compiler
+🔗 **[VER EL SITIO EN VIVO (Live Demo)](https://carloamezcua.github.io/AI-Agent-Assisted-Portfolio/)**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🤖 El Concepto
+Este repositorio documenta mi viaje explorando la simbiosis entre desarrollador e IA. Todo el código ha sido generado, refactorizado o iterado utilizando herramientas como **Cursor (Composer)** y **Google Gemini**, bajo supervisión y arquitectura humana.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🚀 Tech Stack
+* **Core:** React + Vite
+* **Lenguaje:** JavaScript (ES6+) / JSX
+* **Estilos:** CSS3 (Custom Cyberpunk Theme)
+* **AI Partners:** Cursor Agent, Google Gemini Models
+* **Deploy:** GitHub Pages (Automated CI/CD)
+
+---
+
+> *"I don't see the code anymore. I just see blonde, brunette, redhead..."*
+>
+> — **Cypher**
+
+---
+
+## 🧩 Algorithmic Playground
+El portafolio incluye visualizaciones interactivas de autómatas celulares y algoritmos clásicos que emergen del código:
+
+* **🐜 La Hormiga de Langton:** Una simulación de caos emergente desde reglas simples.
+* **🧬 El Juego de la Vida (Conway):** El autómata celular más famoso, simulando evolución digital.
+* **💾 Matrix Rain:** Efectos visuales de lluvia digital manipulando el DOM/Canvas.
+
+---
+
+## 🛠️ Instalación Local
+
+Si quieres correr este constructo en tu propia máquina (Zion):
+
+1.  **Clona el repositorio:**
+    ```bash
+    git clone [https://github.com/carloamezcua/AI-Agent-Assisted-Portfolio.git](https://github.com/carloamezcua/AI-Agent-Assisted-Portfolio.git)
+    ```
+
+2.  **Entra a la carpeta:**
+    ```bash
+    cd AI-Agent-Assisted-Portfolio
+    ```
+
+3.  **Instala las dependencias:**
+    ```bash
+    npm install
+    ```
+
+4.  **Inicia el servidor de desarrollo:**
+    ```bash
+    npm run dev
+    ```
+
+---
+
+## 📦 Despliegue (Deployment)
+
+Este proyecto utiliza `gh-pages` para el despliegue automático.
+
+```bash
+# Para construir y desplegar la última versión:
+npm run deploy
+
+```
+
+---
+
+*Desarrollado por [Carlo Amezcua](https://www.google.com/search?q=https://github.com/carloamezcua) con asistencia de Inteligencia Artificial.*
+
+```
