@@ -1,0 +1,68 @@
+.project-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.project-menu-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  color: var(--neon);
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin: 0;
+}
+
+.project-menu-subtitle {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--neon);
+  opacity: 0.8;
+  margin: 0;
+}
+
+.project-menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.project-menu-card {
+  --card-glow: 0 0 15px rgba(10, 255, 10, 0.5);
+  flex: 1;
+  min-width: 240px;
+  max-width: 320px;
+  padding: 1.5rem;
+  border: 2px solid var(--neon);
+  box-shadow: var(--card-glow), inset 0 0 20px rgba(10, 255, 10, 0.03);
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.project-menu-card:hover {
+  box-shadow: 0 0 25px var(--neon), 0 0 50px rgba(10, 255, 10, 0.3);
+  transform: translateY(-4px);
+}
+
+.project-menu-card-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1rem;
+  color: var(--neon);
+  margin: 0 0 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+}
+
+.project-menu-card-desc {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.8rem;
+  color: var(--neon);
+  opacity: 0.85;
+  margin: 0;
+  line-height: 1.4;
+}

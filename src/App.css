@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Share+Tech+Mono&display=swap');
+
+.portfolio {
+  position: relative;
+  z-index: 1;
+  --neon: #0aff0a;
+  --neon-dim: rgba(10, 255, 10, 0.5);
+  --neon-glow: 0 0 20px var(--neon-dim), 0 0 40px var(--neon-dim);
+  --neon-glow-strong: 0 0 25px var(--neon), 0 0 50px var(--neon-dim), 0 0 75px rgba(10, 255, 10, 0.3);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  gap: 4rem;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: clamp(2.5rem, 8vw, 5rem);
+  font-weight: 900;
+  color: var(--neon);
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  margin: 0;
+  text-shadow: var(--neon-glow);
+  line-height: 1.1;
+}
+
+.subtitle {
+  font-family: 'Share Tech Mono', monospace;
+  font-size: clamp(0.95rem, 2.5vw, 1.25rem);
+  color: var(--neon);
+  opacity: 0.85;
+  margin: 0;
+  letter-spacing: 0.35em;
+  text-transform: uppercase;
+}
+
+/* Cards grid */
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  max-width: 900px;
+}
+
+.card {
+  --card-glow: 0 0 15px var(--neon-dim);
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 1.25rem;
+  color: var(--neon);
+  background: transparent;
+  border: 2px solid var(--neon);
+  box-shadow: var(--card-glow), inset 0 0 20px rgba(10, 255, 10, 0.03);
+  padding: 2rem 3rem;
+  min-width: 180px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  cursor: pointer;
+  transition: box-shadow 0.3s ease, border-color 0.3s ease, transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: var(--neon-glow-strong), inset 0 0 30px rgba(10, 255, 10, 0.08);
+  border-color: var(--neon);
+  transform: translateY(-4px);
+}
+
+.card-label {
+  text-shadow: 0 0 10px var(--neon-dim);
+}
+
+.card:hover .card-label {
+  text-shadow: 0 0 15px var(--neon), 0 0 25px var(--neon-dim);
+}
+
+/* Sección Proyectos */
+.back-btn {
+  position: absolute;
+  top: 1.5rem;
+  left: 1.5rem;
+  font-family: 'Share Tech Mono', monospace;
+  font-size: 0.9rem;
+  color: var(--neon);
+  background: transparent;
+  border: 1px solid var(--neon);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+.back-btn:hover {
+  box-shadow: 0 0 15px var(--neon-dim);
+  background: rgba(10, 255, 10, 0.1);
+}
+
+.projects-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+  max-width: 700px;
+}
+
+.section-title {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 1.5rem;
+  color: var(--neon);
+  text-transform: uppercase;
+  letter-spacing: 0.3em;
+  margin: 0;
+}
+
+.project-card {
+  border: 2px solid var(--neon);
+  box-shadow: 0 0 20px var(--neon-dim);
+  width: 100%;
+}
+
+.project-card-featured {
+  overflow: hidden;
+}
